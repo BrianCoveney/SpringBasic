@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd"
+>
+
+<context:annotation-config />   <!-- enables annotations -->
+
+<bean id="annotations" class="com.spring.tutorial.AnnotationExample" />	
+
+<bean id="drum" class ="com.spring.tutorial.Drum"/>
+
+<bean id="piano" class ="com.spring.tutorial.Piano"/>
+
+</beans>
+ 
+ 
+ 
+ 
+ 
+<!-- default-init-method="onInitialization" default-destroy-method="onDestroy">  -->
+
+<!--  	<bean id="injectCollections" class="com.spring.tutorial.InjectCollections"> -->
+<!-- 	 	<property name="integerList" > -->
+<!-- 		 	<list> -->
+<!-- 			 	<value>10</value> -->
+<!-- 			 	<value>20</value> -->
+<!-- 			 	<value>10</value> -->
+<!-- 			 	<value>30</value> -->
+<!-- 		 	</list>  -->
+<!-- 	 	</property> -->
+	 	
+<!-- 	 	<property name="integerSet"> -->
+<!-- 		 	<set> -->
+<!-- 		 		<value>10</value> -->
+<!-- 			 	<value>20</value> -->
+<!-- 			 	<value>10</value> -->
+<!-- 			 	<value>30</value> -->
+<!-- 		 	</set> -->
+<!-- 	 	</property> -->
+	 	
+<!-- 	 	<property name="map"> -->
+<!-- 	 		<map> -->
+<!-- 	 			<entry key="key1" value="value1"/> -->
+<!-- 	 			<entry key="key2" value="value2"/> -->
+<!-- 	 			<entry key="key3" value="value3"/> -->
+<!-- 	 			<entry key="key4" value="value4"/> -->
+<!-- 	 		</map> -->
+<!-- 	 	</property> -->
+<!--  	</bean> -->
+    
+<!-- </beans> -->
+
+
+
+
+<!--<bean id="playInstrument" class="com.spring.tutorial.PlayInstrument"> -->
+	
+<!-- 	<constructor-arg ref="piano" /> -->
+		
+<!--     </bean> -->
+    
+<!--     <bean id="drum" class="com.spring.tutorial.Drum"> -->
+<!--     </bean> -->
+    
+<!--     <bean id="piano" class="com.spring.tutorial.Piano"> -->
+<!--     </bean> -->
+    
+    
+    
+    
+    
+<!--     <bean id="setterInjection" class="com.spring.tutorial.SetterInjectionExample"> -->
+<!--     	<property name="id" value="100" /> -->
+<!--     	<property name="name" value="John" /> -->
+    	
+    
+    
+    
+<!-- 	<bean id="constructorInjection" class="com.spring.tutorial.SpringConstructorInjection"> -->
+<!-- 		<constructor-arg value="John" index="1" /> -->
+<!-- 		<constructor-arg value="10" index="0"/> -->
+<!-- 		OR -->
+<!-- 	<constructor-arg name="name" value="John" /> -->
+<!-- 	<constructor-arg name="id" value="10" type="int"/> -->
+<!-- 	</bean> -->
+	
+	
+	
+	
+<!-- 	<bean id="springMessage" class="com.spring.tutorial.SpringMessage" scope="prototype"> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="lifeCycle" class="com.spring.tutorial.LifecycleExample" -->
+<!-- 	> -->
+<!-- 	</bean> -->
+	
+	
+	
+	
+<!--  	Default singleton -->
+<!-- 	<bean id="springMessage" class="com.spring.tutorial.SpringMessage"> -->
+<!-- 	</bean> -->
+	
+	
+	
+	
+<!-- 	 Earlier in tutorial	 -->
+<!--     <bean id="helloSpring" class="com.spring.tutorial.HelloSpring" > -->
+<!--         <property name="message" value="Welome to the tutorial" /> -->
+<!--     </bean>  -->
+
+
